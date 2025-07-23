@@ -3,13 +3,15 @@ import './App.css';
 import Sports from './components/sports'; // Uppercase import
 import Welcome from './components/welcome';
 import FirstComponenets from './components/FirstComponenets';
+import Todos from './components/todos';
 
 function App() {
   return (
     <div>
-      <FirstComponenets/>
+      {/* <FirstComponenets/>
       <Welcome />
-      <Sports />
+      <Sports /> */}
+      <Todos />
 
     </div>
   );
